@@ -46,6 +46,8 @@ async function main() {
     console.log("All users:", JSON.stringify(allUsers, null, 2));
 }
 
+
+
 main()
     .then(async () => {
         await prisma.$disconnect();
